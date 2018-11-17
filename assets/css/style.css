@@ -1,0 +1,99 @@
+body {
+    background-image: url("assets/images/mario_background.png");
+    
+}
+
+div {
+	background-color: white;
+	margin: 10px;
+	width: 25%;
+	border: solid 2px rgb(173, 102, 89);
+	padding: 10px;
+}
+
+h1, h3, span {
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30pt;
+}
+
+ol {
+	list-style: decimal inside; 
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header, div.shells {
+	background-color: #e0e0eb;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+
+
+/* CLASS CSS */
+.numberToMatch, .winsAndLosses {
+	float: left;
+	width: 20%;
+	height: 60px;
+	text-align: center;
+}
+
+.userTotal {
+	width: 20%;
+	height: 60px;
+	text-align: center;
+}
+
+.shells {
+	clear: both;
+}
+
+.shellImage {
+	height: 60px;
+	margin: 10px;
+}
+
+
+/* ID CSS */
+#blue {
+    color: #3092c7;
+    font-weight: bold;
+}
+
+#green {
+    color: #00aa59;
+    font-weight: bold;
+}
+
+#red {
+    color: #ec4b5f;
+    font-weight: bold;
+}
+
+#gold {
+    color: #ffc225;
+    font-weight: bold;
+}
+
+#one {
+	border: 2px solid #3092c7;
+}
+
+#two {
+	border: 2px solid #00aa59;
+}
+
+#three {
+	border: 2px solid #ec4b5f;
+}
+
+#four {
+	border: 2px solid #ffc225;
+}

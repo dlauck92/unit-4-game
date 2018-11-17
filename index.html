@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Shell Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Shell Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>Tutorial</h3>
+		</br>
+		<ol>
+			<li>You'll start the game with a random number.<span>"Number To Get"</span></li>
+			<li>There are four shells below.</li>
+			<ul>
+				<li id="blue">Blue Shell</li>
+				<li id="green">Green Shell</li>
+				<li id="red">Red Shell</li>
+				<li id="gold">Gold Shell</li>
+			</ul>
+			<li>By clicking on a shell, you will add a specific amount of points to your total score.</li>
+			<li>To win the game you must match your number to the random number that is generated for you.</li>
+			<li>If your total goes over the random number, you lose.</li>
+			<li>The value of each shell will remain hidden until you click on them and will change each game.</li>
+			
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="shells">
+		<img src="assets/images/blue_shell.png" class=shellImage id="one" alt="Blue Shell">
+		<img src="assets/images/green_shell.png" class=shellImage id="two" alt="Green Shell">
+        <img src="assets/images/red_shell.png" class=shellImage id= "three" alt="Red Shell">
+		<img src="assets/images/gold_shell.png" class=shellImage id= "four" alt="Gold Shell">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
